@@ -1,0 +1,42 @@
+.slider{
+    display: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+img{
+    height: 70vh;
+    border-radius: 60px;
+}
+button{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: burlywood;
+    border: none;
+}
+.active{
+    display: flex;
+    justify-content: center;
+}
+ .btns_block{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} 
+.navigation-dots {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.dot.active {
+    background-color: #717171;
+}
